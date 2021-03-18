@@ -7,10 +7,11 @@ body {
   background: url(../images/bg2.jpg) center center / cover no-repeat;
 }
 
+/* Sign up card is too long */
 .signcard {
   background-color: #faf9de;
   opacity: 0.8;
-  height: 475px;
+  height: 350px;
   width: 300px;
   margin-top: auto;
   margin-bottom: auto;
@@ -28,6 +29,11 @@ body {
   align-content: center;
   height: 100vh;
 }
+
+/* Adding a margin to your sign-in button because it's on top of the password field */
+.card-body .form-group .btn {
+  margin: 1%;
+}  
 
 a {
   font-family: "Roboto", sans-serif;
